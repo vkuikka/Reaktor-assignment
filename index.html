@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href= 'style.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class='reult' id='reult'></dic>
+		<div id='main_grid'>
+			<div id='ongoing_grid_element'>
+				<h2>Ongoing</h2>
+				<div id='ongoing_results'>
+				</div>
+			</div>
+			<div id='history_grid_element'>
+				<h2>History</h2>
+				<div id='history_top_bar'>
+					<input id='filter' type='filter' placeholder='Filter name...'>
+					keep loading history
+					<input type="checkbox" id="keep_loading">
+					<div id='stats'>
+						<div id='totals'></div><br>
+						<div id='ratios'></div>
+						<div id='filtered_player_stats'></div>
+					</div>
+				</div>
+				<div id='history_results'></div>
+				<button id='load_more'>load more</button>
+			</div>
+			<script src='script.js'></script>
+		</div>
+	</body>
+</html>

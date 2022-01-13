@@ -1,0 +1,71 @@
+#ongoing_grid_element {
+	background-color: lightseagreen;
+	grid-column: 1 / 2;
+	grid-row: 2;
+	border-style: solid;
+	border-width: 0;
+	border-right-width: 5px;
+	border-color: grey;
+}
+
+#history_grid_element {
+	grid-template-columns: 40% 60%;
+	background-color: lightblue;
+	grid-column: 2 / 2;
+	grid-row: 2;
+}
+
+#ongoing_grid_element h2 {
+	background-color: grey;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+#history_grid_element h2 {
+	background-color: grey;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+#main_grid {
+	background-color: grey;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
+	border-color: grey;
+}
+
+#history_top_bar {
+	background-color: lightgrey;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0;
+	border-bottom-width: 5px;
+	border-color: grey;
+}
+
+#history_results {
+	padding: 10px;
+}
+
+.winner {
+	background-color: lightgreen;
+}
+
+.loser {
+	background-color: lightsalmon;
+}
+
+.draw {
+	background-color: lightyellow;
+}
+
+.match_result {
+	padding-left: 4%;
+}
+
+#load_more {
+	margin: 10px;
+}
