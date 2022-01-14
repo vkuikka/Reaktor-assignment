@@ -48,10 +48,10 @@ function	update_stats(played_hands, result_totals, filter) {
 		'scissors': Math.round(played_hands['SCISSORS'] / total_played * 100),
 	}
 
-	totals_element.innerHTML = 'total games: ' + total_played + '<br>';
+	totals_element.innerHTML = 'Total games: ' + total_played + '<br>';
 
 	// If there are multiple most played hands with the same amount, show them all.
-	totals_element.innerHTML += 'most played hand:';
+	totals_element.innerHTML += 'Most played hand:';
 	if (played_hands['ROCK'] >= played_hands['PAPER'] && played_hands['ROCK'] >= played_hands['SCISSORS'])
 		totals_element.innerHTML += ' ROCK,';
 	if (played_hands['PAPER'] >= played_hands['ROCK'] && played_hands['PAPER'] >= played_hands['SCISSORS'])
