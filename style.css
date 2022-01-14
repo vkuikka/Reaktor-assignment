@@ -52,18 +52,21 @@
 
 .winner {
 	background-color: lightgreen;
+	border-radius: 4px;
 }
 
 .loser {
 	background-color: lightsalmon;
+	border-radius: 4px;
 }
 
 .draw {
 	background-color: lightyellow;
+	border-radius: 4px;
 }
 
 .match_result {
-	padding-left: 4%;
+	padding-left: 10px;
 }
 
 #load_more {
